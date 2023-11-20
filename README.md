@@ -4,22 +4,29 @@ The bus reservation system operates within designated bus reservation offices, w
 Each employee has a unique username and password combination assigned to them, such as "agent1-Cap*1," providing secure access to the system. Upon successful login, employees can access the bus schedule, seat availability, and a seating arrangement displaying available seat numbers.
 
 **Functions used:**
+
 _1.displayMainMenu() and displayUserMenu():_
       Display the main menu and user menu respectively for user interaction.
+
 _2.loginUser():_
       Takes user input for username and password and checks if the credentials match any user in the system.
+
 _3.bookTicket():_
       Allows users to book tickets by selecting a bus, specifying the number of people, entering passenger details, and choosing available seats.
+
 _4.cancelTicket():_
       Allows users to cancel a ticket by providing their name, freeing up the seat they previously booked.
+
 _5.displayBusScheduleAndStatus() and displaySeatArrangement():_
       Display the bus schedule, availability, and seat arrangement for users to view.
+
 _6.saveData() and loadData()_ functions for:
       .User data: Saving/loading user credentials to/from a file.
       .Bus data: Saving/loading bus information to/from a file.
       .Passenger data: Saving/loading passenger information to/from a file.
       .Booking history: Saving/loading booking history to/from a file.
       .Bus schedule: Saving/loading bus schedules to/from a file.
+
 7.main() function:
     Initializes data structures for users, buses, schedules, passengers, and booking history.
     Loads data from files at the beginning of the program.
