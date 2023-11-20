@@ -43,20 +43,21 @@ Overall, this code constructs a basic bus reservation system allowing empoyes to
 and manage bookings while persisting data through file operations.
 
 **HOW SYSTEM WORKS**
-BOOKING PROCESS
+
+BOOKING PROCESS;
 After login, employee collects the customer's name and assists in selecting a preferred seat number from the available options. In the 
 event a chosen seat is already occupied, the customer is guided to choose an alternate seat. Upon successful booking, a receipt is generated, including 
 details such as the customer's name, seat number, bus number, and fare.
 
-CANCELLATION PROCEDURE
+CANCELLATION PROCEDURE;
 Customers have the option to cancel their booked tickets if they no longer intend to travel. To process a cancellation, customers need to provide the name used for the ticket booking.
 
-BOOKING HISTORY
+BOOKING HISTORY;
 The system maintains a comprehensive record of booked buses, customer names, and their corresponding seat numbers. This allows for easy retrieval 
 and review of past bookings.
 
-SYSTEM UPDATES
+SYSTEM UPDATES;
 The bus schedule and seat availability are promptly updated whenever a ticket is booked or cancelled. This ensures accurate and current information for both employees and customers using the system.
 
-DATA CONSISTENCY
+DATA CONSISTENCY;
 All relevant information, including bookings, cancellations, and schedule updates, is consistently and securely stored within the system. This data is retained even after an employee logs out, maintaining continuity and reliability.
