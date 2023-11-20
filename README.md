@@ -1,5 +1,5 @@
 # bus-reservation-system-using-C
-OVERVIEW OF THE SYSTEM
+OVERVIEW OF THE SYSTEM;
 The bus reservation system operates within designated bus reservation offices, where authorized employees manage bookings for customers seeking tickets. 
 Each employee has a unique username and password combination assigned to them, such as "agent1-Cap*1," providing secure access to the system. Upon successful login, employees can access the bus schedule, seat availability, and a seating arrangement displaying available seat numbers.
 
